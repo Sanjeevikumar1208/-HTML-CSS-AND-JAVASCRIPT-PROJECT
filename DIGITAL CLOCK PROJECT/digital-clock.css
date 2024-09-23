@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font:bold 12px Arial, Helvetica, sans-serif;
+    background-image: url(./image/clock-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.clock{
+    border: 2px solid whitesmoke;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+}
+#Date{
+    font-size: 20px;
+    text-align: center;
+}
+.clock ul{
+    list-style: none;
+    display: flex;
+    font-size: 90px;
+    gap: 15px;
+}
